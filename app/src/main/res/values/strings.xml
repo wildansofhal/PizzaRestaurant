@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Pizza Restaurant WildanSJ</string>
+    <string name="user">Hello, user</string>
+    <string name="lokasi">lokasi</string>
+    <string name="store">Store</string>
+    <string name="location">location</string>
+    <string name="city">text</string>
+    <string name="find_on_maps">Find On Maps</string>
+    <string name="icon_lokasi">lokasi</string>
+    <string name="see_menus">See Menus</string>
+    <string name="hello_user">Hello, User</string>
+    <string name="papperoni_pizza">papperoni pizza</string>
+    <string name="spageti">spaghetti</string>
+    <string name="burger">burger</string>
+    <string name="steak">steak</string>
+    <string name="pepperoni_pizza">Pepperoni Pizza</string>
+    <string name="text_pizza">Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat</string>
+    <string name="spagetti">Spaghetti</string>
+    <string name="txt_spagetti">Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental</string>
+    <string name="txt_burger">Burger</string>
+    <string name="des_burger">Cocok bagi anda yang ingin merasakan kelembuan burger berlapiskan keju, sayuran dan daging tebal</string>
+    <string name="txt_steak">Steak</string>
+    <string name="des_steak">Cocok bagi anda yang ingin merasakan leazatnya daging steak dipadukan dengan kentang yang lezat</string>
+    <string name="price">Price: Rp 66,000,00\n</string>
+    <string name="desc">Pepperoni pizza adalah pizza yang memiliki topping daging pepperoni sapi asli. Di Italia, Pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda</string>
+    <string name="order">Order</string>
+    <string name="back">Back</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="done">Done</string>
+    <string name="asset">Pepperoni pizza sudah dipesan</string>
+    <string name="terimakasih">Terima kasih Pa Asep sudah memesan di toko kami, pesanan Pepperoni Pizza anda dikirim menggunakan Fast Delivery</string>
+    <string-array name="spinner_items">
+        <item>Cimahi</item>
+        <item>Cibiru</item>
+        <item>Braga</item>
+    </string-array>
+</resources>

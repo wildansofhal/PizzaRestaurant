@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    android:layout_marginTop="40dp"
+    tools:context=".FiveMainActivity">
+
+    <TextView
+        android:id="@+id/txt_orderdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_detail"
+        android:textColor="#733F0E"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/od_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asset"/>
+
+    <TextView
+        android:id="@+id/od_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asset"/>
+
+    <TextView
+        android:id="@+id/od_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asset"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengiriman"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#733F0E" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambil Sendiri"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery (Minimal 30 menit sampai)"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/merah"
+        android:layout_marginTop="10dp"
+        app:cornerRadius="0dp"
+        android:text="@string/done"/>
+
+    <LinearLayout
+        android:id="@+id/layoutTY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/recteangle"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp">
+
+        <TextView
+            android:id="@+id/thankYouMessageText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/terimakasih"
+            android:textColor="#733F0E"
+            android:textSize="18sp" />
+        </LinearLayout>
+
+</LinearLayout>
